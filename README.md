@@ -1,7 +1,7 @@
 # Pastex
 a simple pastebin type script. Uses php and a database  
 
-#to connect to your database, open dbcon.php, and edit these lines with your information  
+###to connect to your database, open dbcon.php, and edit these lines with your information  
 
  $dbhost = "localhost";  <---- only change if you have an ip. most hosting providers use localhost  
  $dbuser = "yourusername"; <---- change with your username. could be your hosting username  
