@@ -1,6 +1,2 @@
-# pastex
-a text hosting script like pastebin
-
-#this script is also on my alt account
-
-#created with @themonvster
+# Pastex
+a simple pastebin type script. Uses php and a database

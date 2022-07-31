@@ -1,0 +1,101 @@
+
+:root {
+  --mainColor: #990000;
+
+    
+}
+
+ /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070707; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--mainColor); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer !important;
+}
+   
+
+body{
+    
+    background-color: #050505;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align: center;
+    
+    
+    
+}
+
+.logo{
+    
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+textarea{
+    resize: none;
+border: 0px solid black;
+background: #050505 !important;
+color: #E5E5E5 !important;
+   font-family: 'Open Sans', sans-serif; 
+   border-radius: 5px;
+   
+   
+   
+   
+   
+  
+   
+   
+   
+   
+   
+   
+
+}
+
+textarea:focus{
+    
+        outline: none;
+           
+ 
+
+}
+
+.button{
+    
+    margin-top: 30px;
+    outline: none;
+    background: #050505;
+    color: #E5E5E5;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px solid black;
+    
+    
+}
+
+.button:hover{
+ 
+    cursor: pointer;   
+     transition: border 0.5s;
+
+    border-bottom: 1px solid var(--mainColor) !important;
+    border-top: 1px solid var(--mainColor) !important;
+}
